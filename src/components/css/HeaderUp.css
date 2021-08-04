@@ -1,0 +1,130 @@
+.up{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 1920px;
+    opacity: 1;
+    height: 84px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0.92px 3px #00000080;
+    opacity: 1;
+}
+.search
+{
+    margin-left: 50px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.logoo a{
+    
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: large;
+}
+
+
+
+header nav{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul .adiddas
+{
+    width: 85px;
+    height: 57px;
+    margin-right: 150px;
+    margin-left: 0px;
+}
+nav ul li p {
+    font-size: small;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+nav ul li p a
+{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: small;
+    margin-left: 0px;
+}
+.icon
+{
+    width: 15px;
+    height: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 0 15px;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+nav .nav-cart{
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+}
+nav .nav-cart span{
+    position: absolute;
+    top:-12px;
+    right: -7px;
+    background: crimson;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+}
+header .menu,
+header .close{
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 650px){
+    header ul{
+        position: fixed;
+        top:0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        z-index: 99;
+        opacity: 0.97;
+        transition: 0.5s linear;
+    }
+    header .menu,
+    header .close{
+        display: block;
+    }
+    header .close{
+        position: absolute;
+        top:10px;
+        right: 20px;
+    }
+    header ul.toggle{
+        left: 0;
+    }
+}

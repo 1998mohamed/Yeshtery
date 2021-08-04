@@ -1,0 +1,100 @@
+section .cart{
+    position:relative;
+    margin-left: 700px;
+    border: 1px solid #ccc;
+}
+
+.review
+{
+    margin-left: 80px;
+    width: 150px;
+    height: 30px;
+    font-size: small;
+    margin-right: 40px;
+    background: #FFF200 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    border-style: none;
+}
+
+.check
+{
+    color: white;
+    font-size: small;
+    width: 150px;
+    height: 30px;
+    background: #542E90 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    border-style: none;
+}
+ul
+{
+    margin: 0%;
+}
+ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li h2
+{
+    font-size: small;
+    width: 60px;
+height: 24px;
+text-align: left;
+letter-spacing: 0px;
+color: #542E90;
+}
+
+#remove
+{
+    text-align: center;
+    margin-left: 50px;
+    width: 60px;
+    height: 24px;
+    font-size: small;
+    background-color: #FFF200;
+    border-radius: 12px;
+    opacity: 1;
+}
+.col h3
+{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #1D1D1B;
+    opacity: 1;
+}
+
+ul li
+{
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+}
+
+h1
+{
+    font-weight: bolder;
+    font-size: x-small;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #542E90;
+    opacity: 1;
+}
+
+p
+{
+    margin-left: 80px;
+    font-size: large;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bolder;
+}

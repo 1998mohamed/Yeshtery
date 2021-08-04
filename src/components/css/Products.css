@@ -1,0 +1,299 @@
+#product{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row .paragraph
+{
+    margin-top: 50px;
+    margin-left: 160px;
+    text-align: left;
+    font-family: bold;
+    letter-spacing: 0px;
+    color: #1D1D1B;
+}
+
+.model
+{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 110px;
+}
+.col-6 ul
+{
+    margin-left: 100px;
+}
+.col-6 ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li img
+{
+    min-width: 6px;
+    min-height: 6px;
+}
+
+
+.col-6 h3
+{
+    margin-top: 15px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1D1D1B;
+    opacity: 1;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.col-6 h4
+{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #A7A9AC;
+    opacity: 1;
+    font-size: small;
+}
+
+.size ul,
+.star ul 
+{
+    margin-left: 0%;
+}
+
+.star ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.star ul li h3 
+{
+    margin-left: px;
+    margin-right: 15px;
+}
+
+.star ul li h2 span
+{
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: medium;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+}
+
+.star ul li h2
+{
+    font-size:x-large;
+    font-size: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+}
+#off
+{
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background: #FFF200 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    }
+.size ul
+{
+    margin-left: 0%;
+}
+.size ul li
+{
+    margin-left: 0px;
+    padding: 12px;
+}
+.amount button
+{
+    width: 37px;
+    height: 37px;
+    background: #FFF200 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    border-style: none;
+}
+.amount span
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.buttons .add
+{
+    margin-top: 5px;
+    color: #eee;
+    width: 180px;
+    height: 40px;
+    background: #542E90 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    border-style: none;
+}
+.buttons .remove
+{
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+    background: #FFF200 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    border-style: none;
+}
+
+
+
+
+
+.card{
+    max-width: 250px;
+    min-height: 150px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 10px;
+    transition: 0.5s linear;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card img{
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.content h3{
+    margin-left: 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+.content h3 span
+{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #A7A9AC;
+    font-size: smaller;
+}
+.content ul
+{
+    margin-left: 0%;
+}
+.content ul li 
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.content ul li h4
+{
+    font-size: smaller;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #A7A9AC;
+}
+#offer
+{
+    padding-top: 5px;
+    font-size: xx-small;
+    width: 40px;
+    background-color: #FFF200;
+    border-radius: 28px;
+    height: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.rate ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+.rate h3{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+    font-size: medium;
+    font-weight:bolder;
+}
+.card h3 a{
+    text-decoration: none;
+    color: #333;
+}
+.card h3 a:hover{
+    color: crimson;
+}
+.card span{
+    color: rgb(0, 0, 0);
+}
+.content p{
+    margin: 10px 0;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1D1D1B;
+    opacity: 1;
+    font-weight: bold;
+    font-size: medium;
+}
+.card button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+    color:black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30%;
+    background: #FFF200;
+}
+
+.row h2
+{
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #542E90;
+    opacity: 1;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.row p
+{
+    margin-left: 35px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #575756;
+    opacity: 1;
+}
+
+.content p{
+    margin: 10px 0;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1D1D1B;
+    opacity: 1;
+    font-weight: bold;
+    font-size: medium;
+}
