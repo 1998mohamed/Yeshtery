@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Black-Gym/static/css/main.f5081a61.chunk.css",
-    "main.js": "/Black-Gym/static/js/main.6210c8bf.chunk.js",
-    "main.js.map": "/Black-Gym/static/js/main.6210c8bf.chunk.js.map",
-    "runtime-main.js": "/Black-Gym/static/js/runtime-main.5a6d34a1.js",
-    "runtime-main.js.map": "/Black-Gym/static/js/runtime-main.5a6d34a1.js.map",
-    "static/js/2.faaab450.chunk.js": "/Black-Gym/static/js/2.faaab450.chunk.js",
-    "static/js/2.faaab450.chunk.js.map": "/Black-Gym/static/js/2.faaab450.chunk.js.map",
-    "index.html": "/Black-Gym/index.html",
-    "static/css/main.f5081a61.chunk.css.map": "/Black-Gym/static/css/main.f5081a61.chunk.css.map",
-    "static/js/2.faaab450.chunk.js.LICENSE.txt": "/Black-Gym/static/js/2.faaab450.chunk.js.LICENSE.txt",
-    "static/media/1.92e37e41.svg": "/Black-Gym/static/media/1.92e37e41.svg",
-    "static/media/2.c4a826b2.svg": "/Black-Gym/static/media/2.c4a826b2.svg",
-    "static/media/3.b8c301f9.svg": "/Black-Gym/static/media/3.b8c301f9.svg",
-    "static/media/4.ca886c08.svg": "/Black-Gym/static/media/4.ca886c08.svg",
-    "static/media/about.03399dbc.png": "/Black-Gym/static/media/about.03399dbc.png",
-    "static/media/index.css": "/Black-Gym/static/media/offer.1cafdcd5.png"
+    "main.css": "/user-list/static/css/main.4dd23b0c.chunk.css",
+    "main.js": "/user-list/static/js/main.070dbf35.chunk.js",
+    "main.js.map": "/user-list/static/js/main.070dbf35.chunk.js.map",
+    "runtime-main.js": "/user-list/static/js/runtime-main.71ea0d65.js",
+    "runtime-main.js.map": "/user-list/static/js/runtime-main.71ea0d65.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/user-list/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c3a8dc6b.chunk.js": "/user-list/static/js/2.c3a8dc6b.chunk.js",
+    "static/js/2.c3a8dc6b.chunk.js.map": "/user-list/static/js/2.c3a8dc6b.chunk.js.map",
+    "static/js/3.7669cfb9.chunk.js": "/user-list/static/js/3.7669cfb9.chunk.js",
+    "static/js/3.7669cfb9.chunk.js.map": "/user-list/static/js/3.7669cfb9.chunk.js.map",
+    "index.html": "/user-list/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/user-list/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.4dd23b0c.chunk.css.map": "/user-list/static/css/main.4dd23b0c.chunk.css.map",
+    "static/js/2.c3a8dc6b.chunk.js.LICENSE.txt": "/user-list/static/js/2.c3a8dc6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a6d34a1.js",
-    "static/js/2.faaab450.chunk.js",
-    "static/css/main.f5081a61.chunk.css",
-    "static/js/main.6210c8bf.chunk.js"
+    "static/js/runtime-main.71ea0d65.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c3a8dc6b.chunk.js",
+    "static/css/main.4dd23b0c.chunk.css",
+    "static/js/main.070dbf35.chunk.js"
   ]
 }
