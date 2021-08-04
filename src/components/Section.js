@@ -10,7 +10,7 @@ export class Section extends Component {
         return (
             <section>
                     <Route path="/" component={Products} exact />
-                    <Route path="/product" component={Products} exact  />
+                  
                     <Route path="/cart" component={Cart}  exact/>
             </section>
         )
